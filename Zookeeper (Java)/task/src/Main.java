@@ -130,24 +130,7 @@ public class Main {
         while (true){
             System.out.println("Please enter the number of the habitat you would like to view: ");
             String command = scanner.nextLine();
-            if(command.equals("0")){
-                System.out.println(animals[Integer.parseInt(command)]);
-            }
-            if(command.equals("1")){
-                System.out.println(animals[Integer.parseInt(command)]);
-            }
-            if(command.equals("2")){
-                System.out.println(animals[Integer.parseInt(command)]);
-            }
-            if(command.equals("3")){
-                System.out.println(animals[Integer.parseInt(command)]);
-            }
-            if(command.equals("4")){
-                System.out.println(animals[Integer.parseInt(command)]);
-            }
-            if(command.equals("5")){
-                System.out.println(animals[Integer.parseInt(command)]);
-            }
+            System.out.println(animals[Integer.parseInt(command)]);
             if(command.equals("exit")){
                 System.out.println("See you later!");
                 break;
